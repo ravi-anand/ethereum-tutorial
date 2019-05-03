@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
-  '',
-  ''
+  'silly ignore whale debate burden harvest bomb wave fire congress badge world',
+  'https://rinkeby.infura.io/v3/9b20ec8b19b347139d770c46d0f8b150'
 );
 
 const web3 =new Web3(provider);
